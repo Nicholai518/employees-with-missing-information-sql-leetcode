@@ -2,9 +2,11 @@
 
 ## 1965: Employees With Missing Information
 
-Write an SQL query to report the latest login for all users in the year 2020. Do not include the users who did not login in 2020.
+Write an SQL query to report the IDs of all the employees with missing information. The information of an employee is missing if:
 
-Return the result table in any order.
+The employee's name is missing, or
+The employee's salary is missing.
+Return the result table ordered by employee_id in ascending order.
 
 ## Language
 SQL / MySQL
